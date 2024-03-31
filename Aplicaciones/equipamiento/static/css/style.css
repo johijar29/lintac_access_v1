@@ -1,0 +1,57 @@
+/* Agrega tus estilos personalizados aquí */
+/* Por ejemplo, puedes cambiar el color de fondo del cuerpo de la página */
+body {
+    background-color: #f8f9fa;
+}
+
+
+/*Espaciado en el Contenido Principal*/
+main {
+    padding-bottom: 60px; /* Debe ser al menos la altura de tu footer */
+}
+
+
+/*Pie de Página*/
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #ffffff; /* Considera agregar un color de fondo si el pie de página es sobre contenido */
+    z-index: 10; /* Asegura que el footer se mantiene encima de otros elementos */
+}
+
+
+/*Estilos de Tarjeta Mejorados*/
+.card-custom {
+    background-color: #ffffff;
+    border: 0;
+    border-radius: .25rem;
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+}
+
+
+/*Personalización de la Barra de Navegación*/
+.navbar-custom {
+    background-color: #48688d; /* Reemplaza con el color corporativo */
+}
+
+
+/*Estilos para los Enlaces de Navegación*/
+.navbar-nav .nav-link {
+    color: #fff; /* Blanco por defecto, ajusta si es necesario */
+}
+.navbar-nav .nav-link:hover {
+    color: #f8f9fa; /* Un tono más claro de blanco para el hover */
+}
+
+
+/*Estilos para Botones o Enlaces Importantes*/
+.btn-primary-custom {
+    background-color: #28a745; /* Verde para acciones primarias, por ejemplo */
+    border-color: #28a745;
+}
+.btn-primary-custom:hover {
+    background-color: #218838; /* Un verde más oscuro para hover */
+    border-color: #1e7e34;
+}
+
