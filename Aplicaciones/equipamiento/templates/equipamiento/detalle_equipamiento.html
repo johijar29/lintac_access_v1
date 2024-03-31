@@ -1,0 +1,12 @@
+{% extends 'equipamiento/base.html' %}
+
+{% block content %}
+<h2>Detalle de Equipamiento: {{ equipamiento.modelo }}</h2>
+
+<p>Serie: {{ equipamiento.serie }}</p>
+<p>Tipo: {{ equipamiento.tipo }}</p>
+<!-- Agrega más detalles según necesites -->
+
+<a href="{% url 'editar_equipamiento' equipamiento.id %}">Editar</a>
+<a href="{% url 'listar_equipamientos' %}">Volver a la lista</a>
+{% endblock %}
